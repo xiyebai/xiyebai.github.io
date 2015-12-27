@@ -12,7 +12,7 @@
 <meta property="og:site_name" content="CreativePM">
 <meta property="og:description" content="Hexo安装成功后，会看到第一篇系统博客，有以下有关官方的内容和发布文章的提示。Welcome to Hexo! This is your very first post.Check documentation for more info.If you get any problems when using Hexo, you can find the answer in troubleshoot">
 <meta property="og:image" content="http://7xp5l6.com1.z0.glb.clouddn.com/favicon.png">
-<meta property="og:updated_time" content="2015-12-27T07:45:28.792Z">
+<meta property="og:updated_time" content="2015-12-27T07:48:52.325Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo搭建博客教程和搭建过程中遇到的问题">
 <meta name="twitter:description" content="Hexo安装成功后，会看到第一篇系统博客，有以下有关官方的内容和发布文章的提示。Welcome to Hexo! This is your very first post.Check documentation for more info.If you get any problems when using Hexo, you can find the answer in troubleshoot">
@@ -196,7 +196,7 @@
   
     <div class="article-meta">
       <a href="/2015/12/27/1/" class="article-date">
-  	<time datetime="2015-12-27T07:45:28.792Z" itemprop="datePublished">2015-12-27</time>
+  	<time datetime="2015-12-27T07:48:52.325Z" itemprop="datePublished">2015-12-27</time>
 </a>
     </div>
   
@@ -244,7 +244,9 @@
 <h3 id="4_u3001_u6267_u884C_u4E0B_u5217_u6307_u4EE4_u5373_u53EF_u5B8C_u6210_u90E8_u7F72_uFF1A"><a href="#4_u3001_u6267_u884C_u4E0B_u5217_u6307_u4EE4_u5373_u53EF_u5B8C_u6210_u90E8_u7F72_uFF1A" class="headerlink" title="4、执行下列指令即可完成部署："></a>4、执行下列指令即可完成部署：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <h3 id="5_u3001_u5728_u672C_u5730localhost_uFF1A4000_u67E5_u770B"><a href="#5_u3001_u5728_u672C_u5730localhost_uFF1A4000_u67E5_u770B" class="headerlink" title="5、在本地localhost：4000查看"></a>5、在本地localhost：4000查看</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <h3 id="6_u3001_u66F4_u6362_u4E3B_u9898_u65F6_u9700_u8981_u5148clean_u4E00_u4E0B"><a href="#6_u3001_u66F4_u6362_u4E3B_u9898_u65F6_u9700_u8981_u5148clean_u4E00_u4E0B" class="headerlink" title="6、更换主题时需要先clean一下"></a>6、更换主题时需要先clean一下</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<h3 id="7_u3001html_u5982_u4F55_u5728_u6D4F_u89C8_u5668_u6807_u7B7E_u663E_u793A_u7F51_u7AD9logo_uFF1F"><a href="#7_u3001html_u5982_u4F55_u5728_u6D4F_u89C8_u5668_u6807_u7B7E_u663E_u793A_u7F51_u7AD9logo_uFF1F" class="headerlink" title="7、html如何在浏览器标签显示网站logo？"></a>7、html如何在浏览器标签显示网站logo？</h3><p>网站上的logo实际上是一个“favicon.ico”图片。<br>实现步骤：<br>第一步：制作favicon.ico，大小为16*16毫米；<br>第二步：将“favicon.ico”放到项目的根路径下。<br>第三步：在所有html页面head中添加如下代码。<br>    //收藏用logo图标<br>    <link rel="bookmark" type="image/x-icon" href="favicon.ico"><br>    //网站显示页logo图标<br>    <link rel="shortcut icon" href="favicon.ico"><br>第四步：直接打开html页面，打开方式为常用的浏览器即可。效果如图<br><img src="http://7xp5l6.com1.z0.glb.clouddn.com/favicon.png" alt="favicon.ico"></p>
+<h3 id="7_u3001html_u5982_u4F55_u5728_u6D4F_u89C8_u5668_u6807_u7B7E_u663E_u793A_u7F51_u7AD9logo_uFF1F"><a href="#7_u3001html_u5982_u4F55_u5728_u6D4F_u89C8_u5668_u6807_u7B7E_u663E_u793A_u7F51_u7AD9logo_uFF1F" class="headerlink" title="7、html如何在浏览器标签显示网站logo？"></a>7、html如何在浏览器标签显示网站logo？</h3><p>网站上的logo实际上是一个“favicon.ico”图片。<br>实现步骤：<br>第一步：制作favicon.ico，大小为16*16毫米；<br>第二步：将“favicon.ico”放到项目的根路径下。<br>第三步：在所有html页面head中添加如下代码。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">    //收藏用logo图标</span><br><span class="line">    &lt;link rel=<span class="string">"bookmark"</span>  <span class="built_in">type</span>=<span class="string">"image/x-icon"</span>  href=<span class="string">"favicon.ico"</span>/&gt;</span><br><span class="line">    //网站显示页logo图标</span><br><span class="line">    &lt;link rel=<span class="string">"shortcut icon"</span> href=<span class="string">"favicon.ico"</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>第四步：直接打开html页面，打开方式为常用的浏览器即可。效果如图<br><img src="http://7xp5l6.com1.z0.glb.clouddn.com/favicon.png" alt="favicon.ico"></p>
 
       
     </div>
