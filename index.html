@@ -1,445 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-  <meta charset="utf-8">
-  
-  <title>CreativePM</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="CreativePM">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="CreativePM">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CreativePM">
-<meta name="twitter:description">
-  
-    <link rel="alternative" href="/atom.xml" title="CreativePM" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Chengbo Gao's CV</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="pagePiling.js plugin by Alvaro Trigo." />
+	<meta name="keywords"  content="pile,piling,piling.js,stack,pages,scrolling,stacking,touch,fullpile,scroll,plugin,jquery" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="vendor/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+	
+
+	<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="vendor/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+			    sectionsColor: ['#51bec4', '#f19149', '#80c269', '#2C3E50','#00a0e9','#ea8010','#cf5858','#009e96'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Home', 'Projects', 'Professions', 'Education','Internship','Jobs Preferred','Contact Me']
+			   	}
+			});
+	    });
+    </script>
 </head>
 <body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img lazy-src="http://7xp5l6.com1.z0.glb.clouddn.com/avater.jpg" class="js-avatar">
-			
-		</a>
-
-		<hgroup>
-		  <h1 class="header-author"><a href="/">高成波</a></h1>
-		</hgroup>
-
-		
-
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-						<div class="icon-wrap icon-me hide" data-idx="3">
-							<div class="user"></div>
-							<div class="shoulder"></div>
-						</div>
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>菜单</li>
-						<li>标签</li>
-						
-						<li>友情链接</li>
-						
-						
-						<li>关于我</li>
-						
-					</ul>
-				</div>
-			</div>
-		
-
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">主页</a></li>
-				        
-							<li><a href="/archives">所有文章</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-								<a class="github" target="_blank" href="https://github.com/xiyebai" title="github">github</a>
-					        
-								<a class="weibo" target="_blank" href="http://weibo.com/3125271121" title="weibo">weibo</a>
-					        
-								<a class="rss" target="_blank" href="http://mypmresume.sinaapp.com" title="rss">rss</a>
-					        
-								<a class="zhihu" target="_blank" href="http://www.zhihu.com/people/xi-xie-bo" title="zhihu">zhihu</a>
-					        
-						</div>
-					</nav>
-				</section>
-				
-				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/张晓楠/" style="font-size: 10px;">张晓楠</a> <a href="/tags/读书方法/" style="font-size: 10px;">读书方法</a>
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-				
-				<section class="switch-part switch-part4">
-				
-					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
-				</section>
-				
-			</div>
-		</div>
-	</header>				
-</div>
+	<div id="lang-panel">
+            <a id="link" class="lang" href="cn.html">中</a>
+            <a class="lang selected" href="#">En</a>
     </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">高成波</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-				<img lazy-src="http://7xp5l6.com1.z0.glb.clouddn.com/avater.jpg" class="js-avatar">
-			</div>
-			<hgroup>
-			  <h1 class="header-author">高成波</h1>
-			</hgroup>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/archives">所有文章</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="github" target="_blank" href="https://github.com/xiyebai" title="github">github</a>
-			        
-						<a class="weibo" target="_blank" href="http://weibo.com/3125271121" title="weibo">weibo</a>
-			        
-						<a class="rss" target="_blank" href="http://mypmresume.sinaapp.com" title="rss">rss</a>
-			        
-						<a class="zhihu" target="_blank" href="http://www.zhihu.com/people/xi-xie-bo" title="zhihu">zhihu</a>
-			        
-				</div>
-			</nav>
-		</header>				
-	</div>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-3" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/07/3/" class="article-date">
-  	<time datetime="2016-01-06T17:38:20.627Z" itemprop="datePublished">2016-01-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/07/3/">读书方法</a>
-    </h1>
-  
+	<div style="position:fixed;top:50px;left:50px;color:white;z-index:999;" id="callbacksDiv"></div>
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？<br>社会，是人的社会；人，是社会的人。冲破混沌，摆脱愚昧，要求知。只有求知，才能不断的丰富自己，充实自己。<br>求知为用，要广泛地与志趣高洁的人交流，在实践中修正自己，提高自己，形成能力。但这仅仅是“人”，而不是“才”。<br>要真正成为社会所需的人才，必须要修德，这是和谐人的最高层面。<br>“知、能、德”三者具备，才能达到孔子教育思想中树人的标准。<br>“学而时习之”，乃初学之文，为一境；“有朋自远方来”，则成学后事，为二境；最后一境，本非学者所望，乃求学深造日进所得。</p>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/读书方法/">读书方法</a></li></ul>
+	<div id="pagepiling">
+	    <div class="section" id="sectin1">
+                <img src="img/avatar.png" />
+                <h1 id="title">Chengbo Gao</h1>
+                <p id="subtitle">A Nice, Creative, and Reliable</p>
+                <p>Product Manager</p>
+        </div>
+
+	    <div class="section" id="section2">
+	    	<div class="intro">
+	    		<h1>Projects</h1>
+				 <div id="sub" class="tg-panel">
+                    <div class="tg expert"><h4>1、 The Logo of Association of Societies</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2、 The Web Design of Science and Technology Association</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>3、 The Web Design of Youth League Committee</h4></div>
+                 </div> 
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>4、 Lead a Team to Achieve a Reward in Computer Design Contest of Jiangsu Province</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>5、 Organize Many Different Kinds of Activities for Students to Participate in Design</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>And More...</h4></div>
+                 </div>
+	    	</div>
+	    </div>
+
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>The B2B Project About Tourism</h1>
+                 <div id="sub" class="tg-panel">
+                    <div class="tg expert"><h4>2.1 Access to new product categories</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.2 Set up and optimize the system of substation search</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.3 The template of online activities</h4></div>
+                 </div> 
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.4 Product sorting rules </h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.5 Data statistical system</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.6 User research and in-depth interviews</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.7 Competitive analysis</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>2.8 Access control</h4></div>
+                 </div>
+                 <div class="tg-panel">
+                    <div class="tg expert"><h4>And More on www.gaochengbo.com ：）</h4></div>
+                 </div>
+            </div>
+        </div>
+
+	    <div class="section" id="section3">
+	    	<h1>Professions</h1>
+                <div id="sub" class="tag-panel">
+                    <div class="tag expert"><h4>PhotoShop</h4></div>
+                    <div class="tag familiar"><h4>Adobe Illustrator</h4></div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag expert"><h4>HTML5</h4></div>
+                    <div class="tag expert"><h4>CSS</h4></div>
+                    <div class="tag expert"><h4>JavaScript</h4></div>
+                    <div class="tag familiar"><h4>SQL</h4></div>
+                    <div class="tag familiar"><h4>Bootstrap</h4></div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag familiar"><h4>Axure</h4></div>
+                    <div class="tag familiar"><h4>BRD</h4></div>
+                    <div class="tag"><h4>PRD</h4></div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag expert"><h4>Requirement Analysis</h4></div>
+                    <div class="tag familiar"><h4>User Studies</h4></div>
+                    <div class="tag familiar"><h4>Data Analysis</h4></div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag expert"><h4>Node</h4></div>
+                    <div class="tag expert"><h4>Git</h4></div>
+                </div>
+	    </div>
+
+	    <div class="section" id="section4">
+	    	<h1>Education</h1>
+                <p id="sub">Undergraduate student at <em>Wenzheng College of Soochow University</em></p>
+                <p>Major in <em>Internet of Things</em></p>
+                <h3>Information Center</h3>
+                <h3>Expected to graduate on <em>June, 2016</em></h3>
+                <p>Research topic related about <em>Internet Products</em> and <em>User Experience</em></p>
+                <h3>Hire Me Now!</h3>
+	    </div>
+
+	    <div class="section" id="section5">
+	    	<h1>Internship</h1>
+                <h3 id="sub">Process Control Staff @Dizhen Logistics</h3>
+                <br>
+                <h4>July 2014 - August 2014</h4>
+                <h4>Related work: Communicate, Record and Process Control</h4>
+                <h4>Excellent Intern of 2014 </h4>
+
+                <h3 id="sub">Internet Product Assistant@LY</h3>
+                <br>
+                <h4>Dec 2015 -- Now</h4>
+                <h4>Demand Analysis & Data Analysis & User Research </br>Product Access & Competitive Analysis & Access Control</h4>
+	    </div>
+
+	    <div class="section" id="section6">
+	    	<h1>Jobs Preferred</h1>
+                <h3 id="sub">As a Product Manager</h3>
+                <h4 id="sub">(even better if is related with User Experience Design or User Interface Design)</h4>
+                <p>In Suzhou</p>
+                <h4>Or, surprise me with a generous offer!</h4>
+                <h3>Hire Me Now!</h3>
+	    </div>
+
+	    <div class="section" id="section7">
+	    	<h1>Learn More</h1>
+                <h3 id="sub"><a href="http://gaochengbo.com/" target="_blank">Personal Website</a></h3>
+				<h4 id="sub"><a href="http://www.zcool.com.cn/u/2450134/" target="_blank">ZCool Homepage</a></h3>
+                <h4>Email: me@gaochengbo.com</a></h4>
+
+                <h3><a href="Product Manager Chengbo Gao.pdf" target="_blank" class="highlight">Download CV</a></h3>
+
+                
+	    </div>
 	</div>
 
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/知识力/">知识力</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/07/3/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-2" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/07/2/" class="article-date">
-  	<time datetime="2016-01-06T16:44:30.425Z" itemprop="datePublished">2016-01-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/07/2/">就是不想负了青春&amp;就是要看清梦想的样子 ——张晓楠</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="http://7xp5l6.com1.z0.glb.clouddn.com/2.jpg" alt="张晓楠"><br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/张晓楠/">张晓楠</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/演讲力/">演讲力</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/07/2/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-1" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/27/1/" class="article-date">
-  	<time datetime="2015-12-27T07:48:52.325Z" itemprop="datePublished">2015-12-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/27/1/">Hexo搭建博客教程和搭建过程中遇到的问题</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Hexo安装成功后，会看到第一篇系统博客，有以下有关官方的内容和发布文章的提示。<br>Welcome to <a href="http://hexo.io/">Hexo</a>! This is your very first post.<br>Check <a href="http://hexo.io/docs/">documentation</a> for more info.<br>If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<p>先贴上一个比较全的hexo教程：<a href="http://www.jianshu.com/p/05289a4bc8b2">如何搭建一个独立博客——简明Github Pages与Hexo教程</a><br>绑定到自己的独立域名的域名DNS配置： <a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/">github-help</a><br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/知识力/">知识力</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/12/27/1/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-  
-</div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2016 高成波
-    	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
-    </div>
-  </div>
-</footer>
-    </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-
-
-<script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false
-	}
-</script>
-<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="/js/main.js" type="text/javascript"></script>
-
-
-
-
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
-</script>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  </div>
 </body>
 </html>
